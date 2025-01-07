@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { Names } from './index-name'
-import type { News } from 'api/news/NewsModel'
+import type { News } from '../api/news/NewsModel'
 
 // NewsList
 export const useNewsListStore = defineStore(Names.NEWLIST, {
